@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="164" started-at="2022-07-09T18:02:59 IST" finished-at="2022-07-09T18:02:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="164" started-at="2022-07-09T18:02:59 IST" finished-at="2022-07-09T18:02:59 IST">
+      <class name="testngclasses.VerifyApplicationHeaders">
+        <test-method status="SKIP" signature="launchBrowser(java.lang.String)[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="launchBrowser" is-config="true" duration-ms="-1657369979067" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="pomObjectCreatiom()[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="pomObjectCreatiom" is-config="true" duration-ms="-1657369979102" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomObjectCreatiom -->
+        <test-method status="SKIP" signature="loginToApplication()[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="loginToApplication" is-config="true" duration-ms="-1657369979122" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="SKIP" signature="toSearchProduct()[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="toSearchProduct" duration-ms="0" started-at="2022-07-09T18:02:59 IST" finished-at="2022-07-09T18:02:59 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toSearchProduct -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="afterMethod" is-config="true" duration-ms="-1657369979135" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="loginToApplication()[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="loginToApplication" is-config="true" duration-ms="-1657369979143" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="SKIP" signature="toVerifyCartButton()[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="toVerifyCartButton" duration-ms="0" started-at="2022-07-09T18:02:59 IST" finished-at="2022-07-09T18:02:59 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyCartButton -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="afterMethod" is-config="true" duration-ms="-1657369979150" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="closeObjects()[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="closeObjects" is-config="true" duration-ms="-1657369979154" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeObjects -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:testngclasses.VerifyApplicationHeaders@32d2fa64]" name="afterClass" is-config="true" duration-ms="-1657369979201" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testngclasses.VerifyApplicationHeaders -->
+      <class name="testngclasses.VerifyAddRemoveProduct">
+        <test-method status="FAIL" signature="launchBrowser(java.lang.String)[pri:0, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="launchBrowser" is-config="true" duration-ms="-1657369979049" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="pomObjectCreation()[pri:0, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="pomObjectCreation" is-config="true" duration-ms="-1657369979155" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomObjectCreation -->
+        <test-method status="SKIP" signature="loginToApplication()[pri:0, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="loginToApplication" is-config="true" duration-ms="-1657369979159" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="SKIP" signature="toSelectProduct()[pri:1, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="toSelectProduct" duration-ms="0" started-at="2022-07-09T18:02:59 IST" finished-at="2022-07-09T18:02:59 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toSelectProduct -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="afterMethod" is-config="true" duration-ms="-1657369979170" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="toAddToCartProduct()[pri:2, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="toAddToCartProduct" duration-ms="0" started-at="2022-07-09T18:02:59 IST" depends-on-methods="testngclasses.VerifyAddRemoveProduct.toSelectProduct" finished-at="2022-07-09T18:02:59 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifyAddRemoveProduct.toAddToCartProduct()[pri:2, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifyAddRemoveProduct.toAddToCartProduct()[pri:2, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toAddToCartProduct -->
+        <test-method status="SKIP" signature="loginToApplication()[pri:0, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="loginToApplication" is-config="true" duration-ms="-1657369979182" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="SKIP" signature="toRemoveProduct()[pri:3, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="toRemoveProduct" duration-ms="0" started-at="2022-07-09T18:02:59 IST" finished-at="2022-07-09T18:02:59 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Ashwini Torankar\eclipse-workspace\FlipKartProjectNew\flipkartregression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toRemoveProduct -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="afterMethod" is-config="true" duration-ms="-1657369979193" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="closeObjects()[pri:0, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="closeObjects" is-config="true" duration-ms="-1657369979197" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeObjects -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:testngclasses.VerifyAddRemoveProduct@6b9651f3]" name="afterClass" is-config="true" duration-ms="-1657369979199" started-at="2022-07-09T18:02:59 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testngclasses.VerifyAddRemoveProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
