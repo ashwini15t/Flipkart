@@ -17,6 +17,10 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import browser.BaseClass;
 import pomclassesflipkart.HeadersPageFlikart;
 import pomclassesflipkart.LoginPageFlipkart;
@@ -30,12 +34,16 @@ public class VerifyApplicationHeaders {
 	HeadersPageFlikart headers;
 	SoftAssert soft;
 	int testID;
+	static ExtentTest test;
+	static ExtentHtmlReporter reporter;
 	
 	@Parameters("browserName")
 	
 	@BeforeTest
 	public void launchBrowser(String browser) {
-		
+		reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
+		ExtentReports extend = new ExtentReports();
+		extend.attachReporter(reporter);
 		System.out.println("Before Test");
 		   if(browser.equals("Chrome"))
 		   {

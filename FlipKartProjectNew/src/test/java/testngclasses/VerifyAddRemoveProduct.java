@@ -20,6 +20,10 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import browser.BaseClass;
 import pomclassesflipkart.AddtocartProductPage;
 import pomclassesflipkart.HeadersPageFlikart;
@@ -38,12 +42,16 @@ public class VerifyAddRemoveProduct {
 	RemoveProductPage removeProduct;
 	SoftAssert soft;
 	int testID;
+	static ExtentTest test;
+	static ExtentHtmlReporter reporter;
 	
 	@Parameters("browserName")
 	
 	@BeforeTest
 	public void launchBrowser(String browser) {
-		
+		reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
+		ExtentReports extend = new ExtentReports();
+		extend.attachReporter(reporter);
 		System.out.println("Before Test");
 		   if(browser.equals("Chrome"))
 		   {
@@ -98,7 +106,7 @@ public class VerifyAddRemoveProduct {
 		Thread.sleep(5000);
 		String title2=driver.getTitle();
 	    SoftAssert soft=new SoftAssert();
-		soft.assertEquals(title2, "Sony Tv- Buy Products Online at Best Price in India - All Categories | Flipkart.com", "title vertification");
+		soft.assertEquals(title2, "Sny Tv- Buy Products Online at Best Price in India - All Categories | Flipkart.com", "title vertification");
 		soft.assertAll();
 		
 			   

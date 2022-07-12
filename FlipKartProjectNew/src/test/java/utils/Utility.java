@@ -30,7 +30,7 @@ public class Utility {
 		TakesScreenshot t= (TakesScreenshot)driver;
 		File source= t.getScreenshotAs(OutputType.FILE);
 		
-		File dest= new File("C:\\velocity_pune\\Screenshots\\Testscreenshot-"+testID+ " " + str + ".jpeg");
+		File dest= new File("test-output\\Screenshots\\Testscreenshot-"+testID+ " " + str + ".jpeg");
 		
 		Thread.sleep(5000);	
 		FileHandler.copy(source, dest);
